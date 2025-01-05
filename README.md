@@ -64,12 +64,12 @@ python 3.10+
 
 
 > #### **Run Examples:**
-> `python3 metaHarvester.py  -t example.com                                  - simple usage`
-> `python3 metaHarvester.py  -t example.com -s ">10KB...<1MB"                - with a filter by file sizes`
-> `python3 metaHarvester.py  -t example.com -e pdf -s ">10KB...<1MB"         - with a filter by file extension(only pdf docs) and file sizes`
-> `python3 metaHarvester.py  -t example.com -w 60 -c 10                      - with a filter by waiting 60 seconds and the number of files equal to 10`
-> `python3 metaHarvester.py  -t example.com -oT report.txt                   - with a write result in txt file "report.txt"`
-> `python3 metaHarvester.py  -t example.com --auto-remove                    - with a deleting files after downloading>`
-> `python3 metaHarvester.py  -t example.com --tor --i                        - with a using Tor network and find intresting files`
-> `python3 metaHarvester.py  -t target.csv['site'] --tor --i -w 60 -c 10 -e docx --auto-remove -s ">10B...<1GB" -oJ report.json`
+> `python3 metaHarvester.py  -t example.com                                  - simple usage`  
+> `python3 metaHarvester.py  -t example.com -s ">10KB...<1MB"                - with a filter by file sizes`  
+> `python3 metaHarvester.py  -t example.com -e pdf -s ">10KB...<1MB"         - with a filter by file extension(only pdf docs) and file sizes`  
+> `python3 metaHarvester.py  -t example.com -w 60 -c 10                      - with a filter by waiting 60 seconds and the number of files equal to 10`  
+> `python3 metaHarvester.py  -t example.com -oT report.txt                   - with a write result in txt file "report.txt"`  
+> `python3 metaHarvester.py  -t example.com --auto-remove                    - with a deleting files after downloading>`  
+> `python3 metaHarvester.py  -t example.com --tor --i                        - with a using Tor network and find intresting files`  
+> `python3 metaHarvester.py  -t target.csv['site'] --tor --i -w 60 -c 10 -e docx --auto-remove -s ">10B...<1GB" -oJ report.json`  
 Using option: `--help-all` for show all reference
