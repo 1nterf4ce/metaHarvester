@@ -24,14 +24,14 @@ The task of this project is to massively scan a large number of sites and collec
 - ❌ 17. The ability to use your own "Google dorks" to search for information about the goal.(deprecated)
 -  ✅ 18. The ability to import goals from files of 3 formats: csv, json, txt. For csv and json files, use the entry: file.csv[column_name]
 - ✅ 19. Generating a list of passwords from found names
--  ✅ 20. Searching for email addresses and phone numbers (available in the Crawling module)
+-  ✅ 20. Searching for email addresses and phone numbers (available in the **crawler** module)
 -  ✅ 21. The index-of module has been updated to automatically search for an open directory in Google if the site content does not match the patterns.
 -  ✅ 22. Support for all open directory page templates
 -  ✅ 23. For Google and Google Dork modules, a function has been added to bypass captcha via: public proxies, private proxies, or the Tor network
 -  ✅ 24. Automatic addition of cookies to requests
 -  ✅ 25. Support for formats: '.pdf', '.doc', '.docx', '.ppt', '.xlsx', '.xls', '.pptx', '.jpg', '.jpeg', '.bmp', '.png', '.tif' (More details in the Parser/ArgumentsParser.py file)
 -  ✅ 26. Added the ability to download all files from the site, ignoring file extensions
-
+-  ✅ 27. Search for input fields on pages (available in **crawler** module)
 ***
 > #### **Available modules:**
 > ❌ google  
