@@ -25,7 +25,7 @@ The task of this project is to massively scan a large number of sites and collec
 -  ✅ 18. The ability to import goals from files of 3 formats: csv, json, txt. For csv and json files, use the entry: file.csv[column_name]
 - ✅ 19. Generating a list of passwords from found names
 -  ✅ 20. Searching for email addresses and phone numbers (available in the Crawling module)
--  ✅ 21. For the index-of module (searching for documents in open directories), the ability to search for open directories in Google for a specified site has been added.
+-  ✅ 21. The index-of module has been updated to automatically search for an open directory in Google if the site content does not match the patterns.
 -  ✅ 22. Support for all open directory page templates
 -  ✅ 23. For Google and Google Dork modules, a function has been added to bypass captcha via: public proxies, private proxies, or the Tor network
 -  ✅ 24. Automatic addition of cookies to requests
@@ -34,15 +34,15 @@ The task of this project is to massively scan a large number of sites and collec
 
 ***
 > #### **Available modules:**
-> google  
-> dork  
-> index-of  
-> clear  
-> extract  
-> downloader  
-> crawler  
-> restart  
-> passgen  
+> ❌ google  
+> ❌ dork  
+> ✅ index-of  
+> ✅ clear  
+> ✅ extract  
+> ✅ downloader  
+> ✅ crawler  
+> ✅ restart  
+> ✅ passgen  
 
 ***
 #### **Install:**
