@@ -46,22 +46,24 @@ The task of this project is to massively scan a large number of sites and collec
 
 ***
 #### **Install:**
-python 3.10+
+python 3.10+ \
 `pip install -r requirements.txt` \
 `python3 metaHarvester.py -h` \
 `python3 metaHarvester.py crawler -h`  
 
 ***
 #### **Shared Arguments**
-+ [-t,  --targets]               -t     example.com "targets_file.csv['site']" targets.txt "target_json.txt['url']"
-+ [-e,  --extensions]            -e     pdf doc docx
-+ [-s,  --size]                  -s     ">1MB...<2MB" - files in range from 1MB before 2MB  or ">1.5MB" files more 1.5 MB
-+ [--all, --all-files]           --all  if this argument is specified, it will download all files, regardless of the extension
-+ [--i, --intresting-files]      --i    if this argument is specified, it will search for files with additional extensions
-+ [-oC,-oJ,-oT]                  -oC report.csv   Save report in csv file. oJ - json file, oT - txt file
-+ [-d,  --date]                  -d ">20230101-15:00:00" or ">2023-01-01...<2023-02-02"
-+ [--dork]                       --dork site:{"{domain}"}.  the value for the domain argument will be taken from the -t argument
-
+<table>
+<tr><th>Arguments</th><th>Option</th><th>Description</th></tr>
+<tr><td> -t,  --targets </td><td> -t  </td><td> example.com "targets_file.csv['site']" targets.txt "target_json.txt['url']" </td></tr>   
+<tr><td> -e,  --extensions </td><td> -e </td><td> pdf doc docx</td></tr>   
+<tr><td> -s,  --size </td><td> -s </td><td> ">1MB...<2MB" - files in range from 1MB before 2MB  or ">1.5MB" files more 1.5 MB</td></tr>   
+<tr><td> --all, --all-files </td><td> --all </td><td> if this argument is specified, it will download all files, regardless of the extension</td></tr>   
+<tr><td> --i, --intresting-files </td><td> --i </td><td> if this argument is specified, it will search for files with additional extensions</td></tr>   
+<tr><td> -oC,-oJ,-oT </td><td> -oC report.csv </td><td> Save report in csv file. oJ - json file, oT - txt file</td></tr>   
+<tr><td> -d,  --date </td><td> -d ">20230101-15:00:00"  </td><td>  ">2023-01-01...<2023-02-02"</td></tr>   
+<tr><td> --dork </td><td> --dork site:{"{domain}"}. </td><td> the value for the domain argument will be taken from the -t argument</td></tr>   
+</table>
 
 
 ***
