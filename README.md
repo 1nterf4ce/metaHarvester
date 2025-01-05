@@ -47,9 +47,9 @@ The task of this project is to massively scan a large number of sites and collec
 ***
 #### **Install:**
 python 3.10+
-`pip install -r requirements.txt`
-`python3 metaHarvester.py -h`
-`python3 metaHarvester.py crawler -h`
+`pip install -r requirements.txt` \
+`python3 metaHarvester.py -h` \
+`python3 metaHarvester.py crawler -h`  
 
 ***
 #### **Shared Arguments**
