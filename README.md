@@ -1,9 +1,9 @@
-#METAHARVESTER
+#METAHARVESTER \
 **metaHarvester** - A program for automated document search and metadata extraction from them. \
 Each module of this project supports working with different goals, file extensions, etc. \
 The task of this project is to massively scan a large number of sites and collect information about their infrastructure. \
 
-####**Install:**
+**####Install:**
 python 3.10+
 `pip install -r requirements.txt`
 `python3 metaHarvester.py -h`
