@@ -32,7 +32,7 @@ The task of this project is to massively scan a large number of sites and collec
 -  ✅ 25. Support for formats: '.pdf', '.doc', '.docx', '.ppt', '.xlsx', '.xls', '.pptx', '.jpg', '.jpeg', '.bmp', '.png', '.tif' (More details in the Parser/ArgumentsParser.py file)
 -  ✅ 26. Added the ability to download all files from the site, ignoring file extensions
 
-
+***
 > #### **Available modules:**
 > google  
 > dork  
@@ -44,14 +44,14 @@ The task of this project is to massively scan a large number of sites and collec
 > restart  
 > passgen  
 
-
+***
 #### **Install:**
 python 3.10+
 `pip install -r requirements.txt`
 `python3 metaHarvester.py -h`
 `python3 metaHarvester.py crawler -h`
 
-
+***
 #### **Shared Arguments**
 + [-t,  --targets]               -t     example.com "targets_file.csv['site']" targets.txt "target_json.txt['url']"
 + [-e,  --extensions]            -e     pdf doc docx
@@ -64,7 +64,7 @@ python 3.10+
 
 
 
-
+***
 > #### **Run Examples:**
 > `python3 metaHarvester.py  -t example.com                                  - simple usage`  
 > `python3 metaHarvester.py  -t example.com -s ">10KB...<1MB"                - with a filter by file sizes`  
@@ -74,6 +74,6 @@ python 3.10+
 > `python3 metaHarvester.py  -t example.com --auto-remove                    - with a deleting files after downloading>`  
 > `python3 metaHarvester.py  -t example.com --tor --i                        - with a using Tor network and find intresting files`  
 > `python3 metaHarvester.py  -t target.csv['site'] --tor --i -w 60 -c 10 -e docx --auto-remove -s ">10B...<1GB" -oJ report.json`  
-Using option: `--help-all` for show all reference
-
+> Using option: `--help-all` for show all reference
+***
 ⚠️ metaHarvester is for educational/research purposes only. The author does NOT take ANY responsibility and/or liability for how you choose to use any tools/source code/any files provided. The author and anyone associated with the author will not be held liable for any losses and/or damages in connection with the use of ANY files provided by metaHarvester.
