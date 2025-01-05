@@ -10,45 +10,45 @@ python 3.10+
 `python3 metaHarvester.py crawler -h`
 
 #### **Opportunities**:
-- [x] 1. Interruption/Resuming the session.
-- [x] 2. Support for proxy and Tor networks.
-- [x] 3. The ability to filter documents by extensions.
-- [x] 4. The ability to filter documents by size.
-- [x] 5. The ability to filter documents by creation date. 
-- [x] 6. The ability to filter documents by number of downloaded documents.
-- [x] 7. Three report formats.(csv - (default), json and txt)
-- [x] 8. Multithreaded download with progress display
-- [x] 9. Additional search for email addresses and phone numbers in documents.
-- [x] 10. All modules use recursive file search.
-- [x] 11. It is possible to search and download interesting files (configuration files, etc.).
-- [x] 12. Extracting metadata from local files.
-- [x] 13. File search robots.txt and loading its contents into memory.
-- [x] 14. The most simple API and the ability to quickly and easily expand classes and add new features.(Examples in metaHarvester.py file)
-- [x] 15. The ability to clear metadata from documents or replace on random data.
+-  :white_check_mark: 1. Interruption/Resuming the session.
+-  :white_check_mark: 2. Support for proxy and Tor networks.
+-  :white_check_mark: 3. The ability to filter documents by extensions.
+-  :white_check_mark: 4. The ability to filter documents by size.
+-  :white_check_mark: 5. The ability to filter documents by creation date. 
+-  :white_check_mark: 6. The ability to filter documents by number of downloaded documents.
+-  :white_check_mark: 7. Three report formats.(csv - (default), json and txt)
+-  :white_check_mark: 8. Multithreaded download with progress display
+-  :white_check_mark: 9. Additional search for email addresses and phone numbers in documents.
+-  :white_check_mark: 10. All modules use recursive file search.
+-  :white_check_mark: 11. It is possible to search and download interesting files (configuration files, etc.).
+-  :white_check_mark: 12. Extracting metadata from local files.
+-  :white_check_mark: 13. File search robots.txt and loading its contents into memory.
+-  :white_check_mark: 14. The most simple API and the ability to quickly and easily expand classes and add new features.(Examples in metaHarvester.py file)
+-  :white_check_mark: 15. The ability to clear metadata from documents or replace on random data.
 - [ ] 16. Using "Google dorks" to search for information about the goal.(deprecated!)
 - [ ] 17. The ability to use your own "Google dorks" to search for information about the goal.(deprecated)
-- [x] 18. The ability to import goals from files of 3 formats: csv, json, txt. For csv and json files, use the entry: file.csv[column_name]
-- [x] 19. Generating a list of passwords from found names
-- [x] 20. Searching for email addresses and phone numbers (available in the Crawling module)
-- [x] 21. For the index-of module (searching for documents in open directories), the ability to search for open directories in Google for a specified site has been added.
-- [x] 22. Support for all open directory page templates
-- [x] 23. For Google and Google Dork modules, a function has been added to bypass captcha via: public proxies, private proxies, or the Tor network
-- [x] 24. Automatic addition of cookies to requests
-- [x] 25. Support for formats: '.pdf', '.doc', '.docx', '.ppt', '.xlsx', '.xls', '.pptx', '.jpg', '.jpeg', '.bmp', '.png', '.tif' (More details in the Parser/ArgumentsParser.py file)
-- [x] 26. Added the ability to download all files from the site, ignoring file extensions
+-  :white_check_mark: 18. The ability to import goals from files of 3 formats: csv, json, txt. For csv and json files, use the entry: file.csv[column_name]
+-  :white_check_mark: 19. Generating a list of passwords from found names
+-  :white_check_mark: 20. Searching for email addresses and phone numbers (available in the Crawling module)
+-  :white_check_mark: 21. For the index-of module (searching for documents in open directories), the ability to search for open directories in Google for a specified site has been added.
+-  :white_check_mark: 22. Support for all open directory page templates
+-  :white_check_mark: 23. For Google and Google Dork modules, a function has been added to bypass captcha via: public proxies, private proxies, or the Tor network
+-  :white_check_mark: 24. Automatic addition of cookies to requests
+-  :white_check_mark: 25. Support for formats: '.pdf', '.doc', '.docx', '.ppt', '.xlsx', '.xls', '.pptx', '.jpg', '.jpeg', '.bmp', '.png', '.tif' (More details in the Parser/ArgumentsParser.py file)
+-  :white_check_mark: 26. Added the ability to download all files from the site, ignoring file extensions
 
 
 > #### **Available modules:**
-> google
-> dork
-> index-of
-> clear
-> extract
-> downloader
-> crawler
-> restart
-> passgen
-
+> google  
+> dork  
+> index-of  
+> clear  
+> extract  
+> downloader  
+> crawler  
+> restart  
+> passgen  
+  
 
 #### **Shared Arguments**
 + [-t,  --targets]               -t     example.com "targets_file.csv['site']" targets.txt "target_json.txt['url']"
