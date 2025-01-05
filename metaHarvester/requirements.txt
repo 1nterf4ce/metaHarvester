@@ -1,0 +1,7 @@
+pikepdf
+requests
+beautifulsoup4
+rich
+lxml
+Pillow
+mimesis
