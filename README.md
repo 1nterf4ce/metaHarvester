@@ -1,9 +1,9 @@
-# METAHARVESTER \
-**metaHarvester** - A program for automated document search and metadata extraction from them. \
-Each module of this project supports working with different goals, file extensions, etc. \
-The task of this project is to massively scan a large number of sites and collect information about their infrastructure. \
+# METAHARVESTER 
+**metaHarvester** - A program for automated document search and metadata extraction from them. 
+Each module of this project supports working with different goals, file extensions, etc. 
+The task of this project is to massively scan a large number of sites and collect information about their infrastructure. 
 
-**#### Install:**
+#### **Install:**
 python 3.10+
 `pip install -r requirements.txt`
 `python3 metaHarvester.py -h`
@@ -38,7 +38,7 @@ python 3.10+
 - [x] 26. Added the ability to download all files from the site, ignoring file extensions
 
 
-> ####**Available modules:**
+> #### **Available modules:**
 > google
 > dork
 > index-of
@@ -50,7 +50,7 @@ python 3.10+
 > passgen
 
 
-####**Shared Arguments**
+#### **Shared Arguments**
 + [-t,  --targets]               -t     example.com "targets_file.csv['site']" targets.txt "target_json.txt['url']"
 + [-e,  --extensions]            -e     pdf doc docx
 + [-s,  --size]                  -s     ">1MB...<2MB" - files in range from 1MB before 2MB  or ">1.5MB" files more 1.5 MB
@@ -63,7 +63,7 @@ python 3.10+
 
 
 
-> ####**Run Examples:**
+> #### **Run Examples:**
 > `python3 metaHarvester.py  -t example.com                                  - simple usage`
 > `python3 metaHarvester.py  -t example.com -s ">10KB...<1MB"                - with a filter by file sizes`
 > `python3 metaHarvester.py  -t example.com -e pdf -s ">10KB...<1MB"         - with a filter by file extension(only pdf docs) and file sizes`
